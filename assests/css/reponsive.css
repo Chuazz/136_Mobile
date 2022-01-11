@@ -1,0 +1,163 @@
+/* ================= PC ==================== */
+/* 1024px --> ...*/
+@media (min-width: 64em){
+    .header__search-logo--mid{
+        display: none;
+    }
+    
+    .header__sort{
+        display: none;
+    }
+
+    .license-list__item--end{
+        display: none;
+    }
+}
+/* ================= PC ==================== */
+
+/* =============== Tablet ================== */
+/* 740px -> 1023px */
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+    .section__ct{
+        justify-content: center;
+    }
+
+    .product__view{
+        flex: none;
+    }
+
+    .wide{
+        width: 664px;
+    }
+
+    .view-body__content{
+        flex-basis: 31%;
+        border-color: #999999;
+    }
+}
+/* =============== Tablet ================== */
+
+/* ============ Tablet, Moile ============== */
+@media (max-width: 63.9375em){
+
+    .header__body{
+        margin-top: 24px;
+    }
+
+    #header__nav{
+        display: none;
+    }
+    
+    .header__search{
+        margin-top: 0;
+    }
+
+    .header__search-logo{
+        display: none;
+    }
+
+    .header__search-bar{
+        display: block;
+    }
+
+    .header__search-logo--mid{
+        text-align: center;
+    }
+
+    .header__search-logo--mid a{
+        color: var(--text-color);
+        text-decoration: none;
+        font-size: 2rem;
+    }
+
+    .product__nav{
+        display: none;
+    }
+
+    .header__search-form{
+        display: none;
+    }
+
+    .header__search-bar,
+    .header__search-cart{
+        flex: 1;
+    }
+
+    .header__search-logo--mid{
+        text-align: center;
+        flex: 2;
+    }
+
+    .header__sort{
+        margin-top: 23px;
+    }
+
+    .sort__by{
+        margin: 0 -12px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    p[class*="sort__by--"]{
+        flex-basis: 25%;
+        text-align: center;
+        color: var(--hover-color);
+        font-size: 1.5rem;
+        border-bottom: 2px solid transparent;
+    }
+
+    .sort__by--involve{
+        border-bottom-color: #5390d9 !important;
+    }
+
+    .licenses__list{
+        margin-left: 12px;
+    }
+
+    .license-list__item--first{
+        display: none;
+    }
+
+    .license-list__item--end{
+        width: 100%;
+        text-align: center;
+        padding-top: 12px;
+    }
+
+    .license-list__item{
+        margin: 4px 15px;
+    }
+
+    .nav__mobile-search{
+        display: flex;
+    }
+}
+/* ============ Tablet, Moile ============== */
+
+/* =============== Mobile ================== */
+/* ... -> 739px */
+@media (max-width: 46.1875em){
+    #content{
+        margin-top: 120px;
+    }
+
+    .section__ct{
+        margin-left: 15px;
+    }
+
+    .product__view{
+        background-color: #0d1117;
+        border: none;
+    }
+
+    .view-body__content{
+        background: #eee;
+        flex-basis: 48%;
+    }
+
+    .pages__list li{
+        margin: 0;
+    }
+}
+/* =============== Mobile ================== */
