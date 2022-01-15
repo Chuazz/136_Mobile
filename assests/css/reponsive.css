@@ -1,0 +1,88 @@
+/* ================= PC ==================== */
+/* 1240px --> ... */
+@media (min-width: 64em) and (max-width: 1239px){
+    .notify__icon{
+        font-size: 20px;
+        margin-top: 3px ;
+    }
+
+    .item-link__body{
+        justify-content: flex-end;
+    }
+}
+/* ================= PC ==================== */
+
+/* =============== PC low ================== */
+/* 1024px -> 1239px */
+@media (min-width: 64em) and (max-width: 1239px){
+    .notify__icon{
+        font-size: 20px;
+        margin-top: 3px ;
+    }
+
+    .item-link__body{
+        justify-content: flex-end;
+    }
+}
+/* =============== PC low ================== */
+
+/* ============ Tabet, mobile ============== */
+/* ... -> 1023px */
+@media (max-width: 63.9375em){
+    #header{
+        padding-top: 0;
+        height: 116px;
+    }
+}
+/* ============ Tabet, mobile ============== */
+
+/* =============== Tablet ================== */
+/* 740px -> 1023px */
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+    #content{
+        margin-top: 117px;
+    }
+
+    .product__poster{
+        margin: 0 7px !important;
+    }
+    
+    .pages__list li{
+        margin: 0 15px;
+    }
+
+    .license-list__item{
+        margin-right: 16px;
+    }
+
+    .license-list__item--end{
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
+    }
+}
+/* =============== Tablet ================== */
+
+/* =============== Mobile ================== */
+/* ... -> 739px */
+@media (max-width: 46.1875em){
+    .pages__list li{
+        margin: 0;
+    }
+
+    .license-list__item{
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    .license-list__item--end{
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    #content {
+        margin-top: 117px;
+    }
+}
+/* =============== Mobile ================== */
